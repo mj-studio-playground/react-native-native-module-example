@@ -33,7 +33,7 @@ fileprivate class MyTextView: UILabel {
   }
   
   @objc
-  var onTextChanged: RCTBubblingEventBlock?
+  var onTextChanged: RCTDirectEventBlock?
 
   required init?(coder: NSCoder) {
     fatalError("Not Implemented")
