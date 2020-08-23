@@ -14,7 +14,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D9F966524F2A371002E16D9 /* NativeModules.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F966424F2A371002E16D9 /* NativeModules.m */; };
+		2D9F966A24F2A3C1002E16D9 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F966924F2A3C1002E16D9 /* Calculator.swift */; };
 		2DCD954D1E0B4F2C00145EB5 /* NativeModuleExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NativeModuleExampleTests.m */; };
+		2DE67DAF24F2C585008D5022 /* MyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE67DAE24F2C585008D5022 /* MyText.swift */; };
 		3CD38D251C3EA15FD497D7B1 /* libPods-NativeModuleExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C82D29F4C852F5CE9A85170F /* libPods-NativeModuleExample-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A8F208851C6CC7D2F473BC0E /* libPods-NativeModuleExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCC383BAD143632004D636 /* libPods-NativeModuleExample-tvOSTests.a */; };
@@ -40,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* NativeModuleExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeModuleExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* NativeModuleExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeModuleExampleTests.m; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		1AE226FEAB42F6D351CF1122 /* Pods-NativeModuleExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModuleExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-NativeModuleExample-tvOS/Pods-NativeModuleExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* NativeModuleExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NativeModuleExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* NativeModuleExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NativeModuleExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9F966424F2A371002E16D9 /* NativeModules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NativeModules.m; path = NativeModuleExample/NativeModules.m; sourceTree = "<group>"; };
+		2D9F966824F2A3C1002E16D9 /* NativeModuleExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeModuleExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D9F966924F2A3C1002E16D9 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		2DE67DAE24F2C585008D5022 /* MyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyText.swift; sourceTree = "<group>"; };
 		3087ADAABBB1D8080CFE7C62 /* Pods-NativeModuleExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModuleExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-NativeModuleExample-tvOS/Pods-NativeModuleExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		385B3C461BFD621C2DE66790 /* libPods-NativeModuleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeModuleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4971C53A601096E6DCB4C923 /* Pods-NativeModuleExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModuleExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeModuleExample-tvOSTests/Pods-NativeModuleExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,20 +140,22 @@
 				4971C53A601096E6DCB4C923 /* Pods-NativeModuleExample-tvOSTests.debug.xcconfig */,
 				6D697AB0C86F3D1B9AE2F220 /* Pods-NativeModuleExample-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* NativeModuleExample */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				2DE67DAD24F2C576008D5022 /* NaiveComponents */,
+				2D9F966824F2A3C1002E16D9 /* NativeModuleExample-Bridging-Header.h */,
+				2D9F966724F2A3AF002E16D9 /* NativeModules */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				2D9F966424F2A371002E16D9 /* NativeModules.m */,
 			);
 			name = NativeModuleExample;
 			sourceTree = "<group>";
@@ -163,6 +171,22 @@
 				C1BCC383BAD143632004D636 /* libPods-NativeModuleExample-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D9F966724F2A3AF002E16D9 /* NativeModules */ = {
+			isa = PBXGroup;
+			children = (
+				2D9F966924F2A3C1002E16D9 /* Calculator.swift */,
+			);
+			path = NativeModules;
+			sourceTree = "<group>";
+		};
+		2DE67DAD24F2C576008D5022 /* NaiveComponents */ = {
+			isa = PBXGroup;
+			children = (
+				2DE67DAE24F2C585008D5022 /* MyText.swift */,
+			);
+			path = NaiveComponents;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -294,7 +318,8 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						DevelopmentTeam = SDRNQ2QQ83;
+						LastSwiftMigration = 1160;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -569,6 +594,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				2DE67DAF24F2C585008D5022 /* MyText.swift in Sources */,
+				2D9F966A24F2A3C1002E16D9 /* Calculator.swift in Sources */,
+				2D9F966524F2A371002E16D9 /* NativeModules.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70E19710749BDBE6B10D1297 /* Pods-NativeModuleExample-NativeModuleExampleTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -633,6 +662,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6D8290000E8D692C12B578A /* Pods-NativeModuleExample-NativeModuleExampleTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = NativeModuleExampleTests/Info.plist;
@@ -656,6 +686,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDRNQ2QQ83;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NativeModuleExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -666,6 +697,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = NativeModuleExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeModuleExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -679,6 +711,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDRNQ2QQ83;
 				INFOPLIST_FILE = NativeModuleExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -688,6 +721,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = NativeModuleExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeModuleExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
