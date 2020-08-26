@@ -11,23 +11,19 @@
 
 ## Contents
 
-### [Overview](#overview)
-
-### [0. Basic settings](#0-basic-settings)
+#### [Overview](#overview-1)
+#### [0. Basic settings](#0-basic-settings)
 - [Android](#android)
 - [iOS](#ios)
-
-### [1. Calculator Native Module](#1-native-modulecalculator)
+#### [1. Calculator Native Module](#1-native-modulecalculator)
 - [React(JavaScript)](#reactjavascript)
 - [Android(Kotlin)](#androidkotlin)
 - [iOS(Swift, Obj-C)](#iosswift-obj-c)
-
-### [2. MyText Native Component](#2-native-componentmytext)
+#### [2. MyText Native Component](#2-native-componentmytext)
 - [React(JavaScript)](#reactjavascript-1)
 - [Android(Kotlin)](#androidkotlin-1)
 - [iOS(Swift, Obj-C)](#iosswift-obj-c-1)
-
-### [Contributors](#contributors-)
+#### [Contributors](#contributors-)
 
 ## Overview
 
