@@ -12,9 +12,9 @@
 ## Contents
 
 #### [Overview](#overview-1)
-#### [0. Basic settings](#0-basic-settings)
-- [Android](#android)
-- [iOS](#ios)
+#### [0. Basic settings](#0-basic-settings-1)
+- [Android](#android-1)
+- [iOS](#ios-1)
 #### [1. Calculator Native Module](#1-native-modulecalculator)
 - [React(JavaScript)](#reactjavascript)
 - [Android(Kotlin)](#androidkotlin)
