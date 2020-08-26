@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "mym0404",
+      "name": "MJ Studio",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/33388801?v=4",
+      "profile": "https://www.mjstudio.net/",
+      "contributions": [
+        "code",
+        "doc",
+        "example"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "react-native-native-module-example",
+  "projectOwner": "mym0404",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
