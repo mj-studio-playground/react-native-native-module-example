@@ -9,6 +9,26 @@
 
 <img src="./screenshot/2.jpg" width="500"/>
 
+## Contents
+
+### [Overview](#overview)
+
+### [0. Basic settings](#0-basic-settings)
+- [Android](#android)
+- [iOS](#ios)
+
+### [1. Calculator Native Module](#1-native-modulecalculator)
+- [React(JavaScript)](#reactjavascript)
+- [Android(Kotlin)](#androidkotlin)
+- [iOS(Swift, Obj-C)](#iosswift-obj-c)
+
+### [2. MyText Native Component](#2-native-componentmytext)
+- [React(JavaScript)](#reactjavascript-1)
+- [Android(Kotlin)](#androidkotlin-1)
+- [iOS(Swift, Obj-C)](#iosswift-obj-c-1)
+
+### [Contributors](#contributors-)
+
 ## Overview
 
 The React Native can use native features with React Native bridge. 
@@ -20,6 +40,17 @@ I created two native modules `Calculator` and `MyText`. `Calculator` is just a s
 This sample is written with languages `JavaScript`, `Kotlin`(Android), and `Swift`(iOS).
 
 ----
+
+## Framework versions
+
+- React: `16.13.1`
+- React Native: `0.63.2`
+
+- Android Gradle Plugin: `4.0.1`
+- Kotlin: `1.4.0`
+- Gradle: `6.2`
+
+- Swift `5`
 
 ## 0. Basic settings
 
