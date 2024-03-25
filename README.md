@@ -18,6 +18,17 @@
 >If you feel this example is useful, please give this repository a bright star!
 >Any contributions are welcome anytime.
 
+## References
+
+- [RN Docs - The New Architecture](https://reactnative.dev/docs/the-new-architecture/landing-page)
+  
+- [RN Docs - Android Native Modules](https://reactnative.dev/docs/native-modules-android)
+- [RN Docs - iOS Native Modules](https://reactnative.dev/docs/native-modules-ios)
+  
+- [RN Docs - Android Native Components](https://reactnative.dev/docs/native-components-android)
+- [RN Docs - iOS Native Components](https://reactnative.dev/docs/native-components-ios)
+- [RN Docs - Native Components Direct Manipulation](https://reactnative.dev/docs/direct-manipulation)
+
 
 ## Screenshots
 
