@@ -1,7 +1,23 @@
 # React Native Native Module, Native Component example
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+>[!NOTE] 
+>At now 2024.3, it turns out that the [New Architecture](https://reactnative.dev/docs/next/the-new-architecture/landing-page)(including Turbo module, Fabric) is still ongoing.
+>We can ask, is this native moudle example valid yet?
+>
+>Sadly, yes.
+>
+>New Architecture is still an experimental feature, and discussions are continuing.
+>Many third-party libraries still leave behind code that uses plain old bridges, and updates are not progressing smoothly.
+>The code in this example is still simple and useful when you simply want to use native functions of Android or iOS or wrap a view.
+>
+>C++ code implementation using JSI supports Flow and Scaffolding Generation using TypeScript specifications through Codegen, but it still requires writing JSI, JNI, and C++ code or complex APIs and build systems.
+>
+>This examples are good start point of you if want to implement native feature without intense headache.
+
+>[!TIP]
+>If you feel this example is useful, please give this repository a bright star!
+>Any contributions are welcome anytime.
+
 
 ## Screenshots
 
