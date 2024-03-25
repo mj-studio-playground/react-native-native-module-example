@@ -6,6 +6,11 @@
 >
 >Sadly, yes.
 >
+>At now, you have 3 options to implement native module(component).
+>
+>1. (No need New Arch) Plain old native module/component (this repository describes it) 👈
+>2. (No need New Arch, [Template](https://github.com/mrousavy/react-native-jsi-library-template)) Use JSI directly to communicate native(c++). Example: [mmkv(JSI module package)](https://github.com/mrousavy/react-native-mmkv), [vision-camera(JSI component package)](https://github.com/mrousavy/react-native-vision-camera)
+>3. (Need New Arch, [Turbo Module Guide](https://github.com/reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md), [Fabric Guide](https://github.com/reactwg/react-native-new-architecture/blob/main/docs/fabric-native-components.md)) Use Turbo Module, Fabric.
 >New Architecture is still an experimental feature, and discussions are continuing.
 >Many third-party libraries still leave behind code that uses plain old bridges, and updates are not progressing smoothly.
 >The code in this example is still simple and useful when you simply want to use native functions of Android or iOS or wrap a view.
