@@ -11,13 +11,17 @@
 >1. (No need New Arch) Plain old native module/component (this repository describes it) 👈
 >2. (No need New Arch, [Template](https://github.com/mrousavy/react-native-jsi-library-template)) Use JSI directly to communicate native(c++). Example: [mmkv(JSI module package)](https://github.com/mrousavy/react-native-mmkv), [vision-camera(JSI component package)](https://github.com/mrousavy/react-native-vision-camera)
 >3. (Need New Arch, [Turbo Module Guide](https://github.com/reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md), [Fabric Guide](https://github.com/reactwg/react-native-new-architecture/blob/main/docs/fabric-native-components.md)) Use Turbo Module, Fabric.
+>
 >New Architecture is still an experimental feature, and discussions are continuing.
 >Many third-party libraries still leave behind code that uses plain old bridges, and updates are not progressing smoothly.
 >The code in this example is still simple and useful when you simply want to use native functions of Android or iOS or wrap a view.
 >
->C++ code implementation using JSI supports Flow and Scaffolding Generation using TypeScript specifications through Codegen, but it still requires writing JSI, JNI, and C++ code or complex APIs and build systems.
+>C++ code implementation using JSI supports Flow and Scaffolding Generation using TypeScript specifications through Codegen.
+>However, constructing modules using the techniques described here is still used in Fabric and Turbo Modules. No, rather, it is very much used except for a little abstraction layer.
 >
->This examples are good start point of you if want to implement native feature without intense headache.
+>Moreover, using the Interop Layer introduced starting from RN 0.72 means that libraries compatible with our Bridge can still work properly in apps of the New Architecture.
+>
+>This examples are good start point of your native library.
 
 >[!TIP]
 >If you feel this example is useful, please give this repository a bright star!
